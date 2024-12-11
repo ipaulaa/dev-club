@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="" method="get" enctype="multipart/form-data">
+      <label>
+        First Name:
+        <input type="text" name="first-name" autocomplete="given-name" />
+      </label>
+      <br />
+      <label>
+        Last Name:
+        <input type="text" name="last-name" autocomplete="family-name" />
+      </label>
+      <br />
+
+      <label>
+        Email:
+        <input type="email" name="email" autocomplete="email" />
+      </label>
+      <br />
+
+      <label>
+        Profile Picture:
+        <input type="file" name="profile-picture" accept="image/*" />
+      </label>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
