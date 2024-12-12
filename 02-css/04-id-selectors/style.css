@@ -1,0 +1,18 @@
+#title {
+  color: crimson;
+  font-size: 55px;
+}
+
+#text {
+  color: dodgerblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#button-1 {
+  background: turquoise;
+}
+
+#button-2 {
+  background: coral;
+}

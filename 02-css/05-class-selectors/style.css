@@ -1,0 +1,13 @@
+.red-text {
+  color: crimson;
+  font-weight: bold;
+}
+
+p,
+.btn {
+  font-size: 18px;
+}
+
+.btn {
+  background: turquoise;
+}
