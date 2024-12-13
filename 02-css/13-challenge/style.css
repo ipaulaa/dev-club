@@ -50,12 +50,11 @@ section {
   display: inline-block;
   vertical-align: top;
 
+  width: 493px;
   margin-top: 96px;
 }
 
 h1 {
-  width: 582px;
-
   color: #161a49;
   font-size: 62px;
   line-height: 82px;
@@ -64,7 +63,6 @@ h1 {
 }
 
 p {
-  width: 493px;
   margin: 47px 0 55px;
 
   color: #4b505a;
