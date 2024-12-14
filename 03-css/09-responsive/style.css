@@ -1,0 +1,24 @@
+div {
+  width: 100px;
+  height: 100px;
+
+  background: #af6af5;
+}
+
+@media (max-width: 600px) {
+  div {
+    background: #ff9f00;
+  }
+}
+
+@media (min-width: 1800px) {
+  div {
+    background: #11c4c4;
+  }
+}
+
+@media screen and (max-width: 300px) and (orientation: landscape) {
+  div {
+    background: #ff4ca3;
+  }
+}
