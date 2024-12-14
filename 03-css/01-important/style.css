@@ -1,0 +1,9 @@
+.no-important {
+  color: crimson;
+  color: deepskyblue;
+}
+
+.important {
+  color: crimson !important;
+  color: deepskyblue;
+}
