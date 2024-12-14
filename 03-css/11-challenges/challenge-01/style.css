@@ -41,19 +41,16 @@ nav a {
   letter-spacing: 1px;
 }
 
-.container-img {
-  max-width: 595px;
-}
-
 .desktop-img {
-  width: 595px;
+  width: 40vw;
+  max-width: 595px;
   margin: 0 85px 0 121px;
 }
 
 section {
   display: inline-block;
   vertical-align: top;
-  max-width: 493px;
+  width: 493px;
   margin-top: 96px;
 }
 
