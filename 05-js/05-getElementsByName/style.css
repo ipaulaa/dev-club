@@ -1,0 +1,22 @@
+body {
+  color: #282a36;
+  font-family: sans-serif;
+}
+
+h2 {
+  width: fit-content;
+  padding: 10px 20px;
+  background: violet;
+  border-radius: 10px;
+}
+
+.text-input {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.radio-container {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,19 @@
+body {
+  color: #282a36;
+  font-family: sans-serif;
+}
+
+h2 {
+  width: fit-content;
+  padding: 10px 20px;
+  background: violet;
+  border-radius: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
