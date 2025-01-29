@@ -1,0 +1,64 @@
+body {
+  color: #fff;
+  background: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 583px;
+  display: block;
+  margin: 156px auto 126px;
+}
+
+p {
+  margin-bottom: 11px;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 62px;
+}
+
+input {
+  width: 342px;
+  padding: 15px;
+  border-radius: 14px;
+
+  border: 1px solid rgba(255 255 255 / 0.2);
+  background: rgba(255 255 255 / 0.25);
+
+  font-size: 2.5rem;
+  line-height: 2.938rem;
+  font-weight: 500;
+}
+
+button {
+  width: 342px;
+  height: 72px;
+
+  display: block;
+  margin: 79px auto 0;
+
+  border-radius: 10px;
+  color: #fff;
+  background: #aec346;
+  box-shadow: 0 18px 40px 0 rgba(174 195 70 / 0.35);
+
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  scale: 0.98;
+}
