@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("https://picsum.photos/1600/900");
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+
+  text-align: center;
+
+  color: #222;
+  background-color: #fafafa;
+
+  box-shadow: 0 5px 15px rgba(0 0 0 / 0.35);
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.btns {
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 3.75rem;
+  padding: 10px;
+
+  border-radius: 10px;
+  border: 3px solid transparent;
+
+  transition: background-color 300ms;
+  cursor: pointer;
+}
+
+#rock-btn {
+  background-color: #dd1675;
+}
+
+#paper-btn {
+  background-color: #01c78d;
+}
+
+#scissors-btn {
+  background-color: #8a04d1;
+}
+
+#rock-btn:hover {
+  background-color: rgba(221 22 117 / 0.6);
+}
+
+#paper-btn:hover {
+  background-color: rgba(1 199 141 / 0.6);
+}
+
+#scissors-btn:hover {
+  background-color: rgb(138 4 209 / 0.6);
+}
+
+button:active {
+  scale: 0.98;
+}
+
+p:empty {
+  display: none;
+}
+#play {
+  font-size: 3rem;
+}
+
+#result {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.score {
+  font-size: 1.25rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+span {
+  font-weight: 900;
+}
