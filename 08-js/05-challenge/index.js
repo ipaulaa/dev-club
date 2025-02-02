@@ -37,12 +37,12 @@ const companies = [
   }
 ];
 
-// Companies founded before 1990
-// Add 10% to market values
+// Companies founded after 1980
+// Subtract 10% to market values
 // Sum the new market values
 const marketValue = companies
-  .filter(company => company.foundedYear < 1990)
-  .map(company => company.marketValue * 1.1)
+  .filter(company => company.foundedYear > 1980)
+  .map(company => company.marketValue * 0.9)
   .reduce((acc, marketValue) => acc + marketValue);
 
 console.log(`marketValue: $${marketValue.toFixed(2)}`);
