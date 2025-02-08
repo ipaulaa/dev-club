@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.container {
+  margin: 10px;
+  border-radius: 5px;
+  border: 4px solid #2dd99d;
+
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  border-radius: 5px;
+  border: 4px solid #2f0250;
+
+  background-color: #c9b7fc;
+  color: #2f0250;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

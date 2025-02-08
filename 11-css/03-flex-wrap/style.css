@@ -40,7 +40,6 @@ h2 {
 .box {
   width: 100px;
   height: 100px;
-  padding: 10px;
   margin: 10px;
 
   border-radius: 5px;
@@ -51,4 +50,9 @@ h2 {
 
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

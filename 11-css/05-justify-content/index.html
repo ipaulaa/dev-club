@@ -4,120 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flex Flow</title>
+    <title>Justify Content</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Flex Flow</h1>
+    <h1>Justify Content</h1>
 
-    <body>
-      <h2>flex-flow: row nowrap</h2>
-      <div class="container row nowrap">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h2>flex-direction: row</h2>
+    <h3>justify-content: flex-start</h3>
+    <div class="container row flex-start">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: row wrap</h2>
-      <div class="container row wrap">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h3>justify-content: flex-end</h3>
+    <div class="container row flex-end">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: row wrap-reverse</h2>
-      <div class="container row wrap-reverse">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h3>justify-content: center</h3>
+    <div class="container row center">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: row-reverse nowrap</h2>
-      <div class="container row-reverse nowrap">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h3>justify-content: space-between</h3>
+    <div class="container row space-between">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: row-reverse wrap</h2>
-      <div class="container row-reverse wrap">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h3>justify-content: space-around</h3>
+    <div class="container row space-around">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: row-reverse wrap-reverse</h2>
-      <div class="container row-reverse wrap-reverse">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h3>justify-content: space-evenly</h3>
+    <div class="container row space-evenly">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: column nowrap</h2>
-      <div class="container column nowrap">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h2>flex-direction: column</h2>
+    <h3>justify-content: flex-start</h3>
+    <div class="container column flex-start">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: column wrap</h2>
-      <div class="container column wrap">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h3>justify-content: flex-end</h3>
+    <div class="container column flex-end">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: column wrap-reverse</h2>
-      <div class="container column wrap-reverse">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h3>justify-content: center</h3>
+    <div class="container column center">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: column-reverse nowrap</h2>
-      <div class="container column-reverse nowrap">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h3>justify-content: space-between</h3>
+    <div class="container column space-between">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: column-reverse wrap</h2>
-      <div class="container column-reverse wrap">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
+    <h3>justify-content: space-around</h3>
+    <div class="container column space-around">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
 
-      <h2>flex-flow: column-reverse wrap-reverse</h2>
-      <div class="container column-reverse wrap-reverse">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-      </div>
-    </body>
+    <h3>justify-content: space-evenly</h3>
+    <div class="container column space-evenly">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
   </body>
 </html>

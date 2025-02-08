@@ -37,7 +37,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 
-  flex-basis: 150px;
+  flex-basis: 200px;
 
   display: flex;
   justify-content: center;
@@ -52,6 +52,6 @@ h1 {
   flex-shrink: 2;
 }
 
-.shrink-3 {
+.shrink-4 {
   flex-shrink: 4;
 }
