@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin: 20px 0;
+  color: magenta;
+  text-align: center;
+}
+
+.container {
+  width: 100vw;
+  height: calc(100vh - 70px);
+
+  display: grid;
+}
+
+.container:nth-of-type(odd) {
+  background-color: deepskyblue;
+}
+
+.container:nth-of-type(even) {
+  background-color: midnightblue;
+}
+
+.box {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.box-1 {
+  background-color: #f55;
+}
+
+.box-2 {
+  background-color: #ff9c1d;
+}
+
+.box-3 {
+  background-color: gold;
+}
+
+.box-4 {
+  background-color: limegreen;
+}
+
+.box-5 {
+  background-color: mediumblue;
+}
+
+.box-6 {
+  background-color: indigo;
+}
+
+.box-7 {
+  background-color: blueviolet;
+}
+
+.box-8 {
+  background-color: black;
+}
+
+.box-9 {
+  color: #000;
+  background-color: white;
+}
+
+.pixel {
+  grid-template-columns: 150px 300px 450px;
+}
+
+.percentage {
+  grid-template-columns: 20% 25% 20%;
+}
+
+.fraction {
+  grid-template-columns: 1fr 2fr 3fr;
+}
+
+.repeat {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.minmax {
+  grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+}
+
+.auto-fit {
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
