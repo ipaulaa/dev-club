@@ -1,0 +1,23 @@
+{
+  "name": "users-back",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Paula Rodrigues <ipaula.abueno.rodrigues@gmail.com>",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node prisma/seed.js",
+    "studio": "npx prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "prisma": "^6.3.1"
+  }
+}
